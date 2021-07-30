@@ -85,9 +85,20 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: #ff9904;
+  background-color: rgba(7, 7, 7, 0.664);
+  color: #ffffff;
 }
+
+/* pin= this is for portfolio page */
+.pin {
+  background-color: #efefef;
+  color: rgb(19, 18, 18);
+  padding: 4px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -99,6 +110,21 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
+  border-color: #ff9904;
+}
+
+/* carte=for portfolio page */
+.carte {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.carte:hover {
   border-color: #ff9904;
 }
 
@@ -196,6 +222,15 @@ a.social:hover {
       justify-content: space-around;
       margin: 0 auto;
   }
+/* fleury= for portfolio page */
+  .fleury {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex; 
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+}
 
   header {
     min-height: 470px;
