@@ -1,2 +1,2 @@
-# project_1
+# 1_profile_page
  HTML/CSS profile page
